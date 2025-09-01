@@ -32,3 +32,10 @@ H2, H3, H4{
     font-family: Arial;
     font-size: 18px;
 }
+
+
+.ram{
+    font-size: 17px;
+    color:rgb(21, 103, 71);
+    text-align: center;
+}
