@@ -1,0 +1,29 @@
+p{
+    color:rgb(10, 94, 10);
+}
+
+body{
+    background-color:rgb(173, 249, 160);
+}
+
+.borta{
+    text-decoration: none;
+}
+.höger{
+    text-align: right;
+}
+
+.border{
+    border: 3px solid black;
+}
+
+p.avvikande{
+    background-color:rgba(40, 112, 88, 0.584);
+    color:white;
+    text-align: center;
+}
+
+H1{
+    font-family: Arial;
+    font-size: 22px;
+}
