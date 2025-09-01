@@ -28,9 +28,10 @@ H1{
     font-size: 22px;
 }
 
-H2, H3, H4{
+H2{
     font-family: Arial;
     font-size: 18px;
+    color: rgb(0, 81, 0)
 }
 
 
