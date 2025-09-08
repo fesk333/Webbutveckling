@@ -1,0 +1,41 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 700px;
+}
+
+.gray{
+    background-color: rgba(128, 128, 128, 0.342);
+}
+
+.lightgray{
+    background-color: rgba(211, 211, 211, 0.342);
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.size{
+    width: 500px;
+    height: 500px;
+    font-size: 1px;
+}
+
+.green{
+    background-color: rgba(0, 128, 0, 0.55);
+}
+.yellow{
+    background-color: rgba(255, 255, 0, 0.55);
+}
+.red{
+    background-color: rgba(255, 0, 0, 0.55);
+}
+.blue{
+    background-color: rgba(0, 0, 255, 0.55);
+}
+
