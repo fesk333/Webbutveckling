@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: span(10, auto);
+    grid-template-rows: span(10, auto);
+
+    gap: 5px;
+
+
+}
+
+.itemA {
+    grid-area: header;
+    background-color: #d064ffcb;
+    grid-column-start: 1;
+    grid-column-end: 100;
+    grid-row-start: 1;
+    grid-row-end: 15;
+
+
+}
+
+.itemB {
+    grid-area: article;
+    background-color: #6bffe4;
+    grid-column-start: 70;
+    grid-column-end: 95;
+    grid-row-start: 15;
+    grid-row-end: 110;
+
+
+
+}
+
+.itemC {
+    grid-area: article;
+    background-color: #ff6b6b;
+    grid-template-rows: 150px;
+    grid-template-columns: 150px;
+    grid-column-start: 5;
+    grid-column-end: 70;
+    grid-row-start: 15;
+    grid-row-end: 110;
+
+
+}
+
+.itemD {
+    grid-area: footer;
+    background-color: #ff00d9;
+    grid-column-start: 1;
+    grid-column-end: 100;
+    grid-row-start: 110;
+    grid-row-end: 130;
+}
+
+.big{
+
+    text-align: center;
+    font-size: 50px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+.roman{
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.romanb{
+    color:rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.romanl{
+    color:rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.center{
+    text-align:center;
+}
+
