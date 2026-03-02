@@ -1,0 +1,32 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    color:rgba(240, 248, 255, 0);
+}
+
+.rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:aquamarine;
+    width: 100vw;
+    height: 100vh;
+}
+
+.circle{
+    background-color:yellow;
+    width: 100vh;
+    height: 100vh;
+    border-radius: 10000vh;
+}
