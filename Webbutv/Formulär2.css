@@ -1,5 +1,8 @@
 html, body{
     background-color:rgb(75, 230, 236);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:10px;
+    
 }
 
 input{
@@ -20,6 +23,7 @@ select{
 input[type=submit]{
     width:100px;
     height: 30px;
+    font-weight:bold;
 }
 
 label{
