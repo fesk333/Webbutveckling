@@ -1,0 +1,51 @@
+html, body{
+    background-color:rgb(75, 230, 236);
+}
+
+input{
+    width:200px;
+    height:30px;
+}
+
+input[type=color]{
+    height: 40px;
+    width: 40px;
+}
+
+select{
+    width: 120px;
+    height: 40px;
+}
+
+input[type=submit]{
+    width:100px;
+    height: 30px;
+}
+
+label{
+    font-size:32px;
+}
+
+input:required, select:required{
+    color:#94A89A;
+}
+
+input:disabled{
+    background:orange;
+}
+
+input:valid, select:valid{
+    border-width:2px;
+    border-style:solid;
+    border-color:green;
+}
+
+input:invalid{
+    border-width:2px;
+    border-style:solid;
+    border-color:red;
+}
+
+input:active,input:focus, select:active,select:focus{
+    background:aqua;
+}

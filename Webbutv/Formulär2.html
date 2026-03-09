@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulär</title>
+        <link rel="stylesheet" href="Formulär2.css">
+        
+    <body>
+
+        <form>
+            <label for="namn" >Användarnamn</label>
+            <input type="text" id="namn" name="namn" value="Elev123" readonly>
+            <br>
+            <label for="rabbat">Rabattkod</label>
+            <input type="text" id="rabatt" name="rabatt" disabled>
+            <br>
+            <br>
+            <select name="bilar" id="bilar" required>
+                <option value="Volvo">Volvo</option>
+                <option value="Saab">Saab</option>
+                <option value="Mercedes" selected>Mercedes</option>
+                <option value="Renault">Renault</option>
+            </select>
+            <br>
+            <label for="mail">Mail:</label>
+            <input type="email" id="mail" name="mail" required>
+            <br>
+            <label for="amail">Alternativ mail:</label>
+            <input type="email" id="amail" name="amail">
+            <br>
+            <br>
+            <label for="favcolor">Välj din favoritfärg:</label>
+            <input type="color" id="favcolor" name="favcolor" required>
+            <br>
+            <label for="favdate">Välj ditt favoritdatum:</label>
+            <input type="date" id="favdate" name="favdate" required>
+            <br>
+            <label for="favnumber">Välj ditt favorit ensiffriga nummer:</label>
+            <input type="number" id="favnumber" name="favnumber" min="0" max="9" required>
+            <br>
+            <br>
+            <input type="submit" value="Skicka in!" onclick="alert('Tack för att du lämnade in!')">
+
+        </form>
+
+    </body>
+
+</html>
